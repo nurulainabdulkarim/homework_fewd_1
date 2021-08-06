@@ -60,21 +60,50 @@ u{
 }
 
 /* banner */
-.banner{
+#banner{
+    height: 660px;
     background-image: url("https://images.unsplash.com/photo-1542744173-8e7e53415bb0?ixid=MnwxMjA3fDB8MHxzZWFyY2h8NHx8bWVldGluZ3xlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&w=1000&q=80");
     background-size: cover;
     background-repeat: no-repeat;
-    height: 500px;
-    padding: 0px ;
-    margin: 0px;
-    margin-bottom: 0;
+    background-position: center center;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding-right: 30px;
+    padding-left: 30px;
 }
 
-.intro{
-    background-color: white;
-    width: 40%;
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-end;
-    padding: 30px 20px;    
+#banner > .intro {
+    background: rgba(255, 255, 255, 0.9);
+    width: 300px;
+    height: 200px;
+    margin: 0 0;
+    padding: 30px 30px;
+    box-shadow: 0px 0px 30px rgba(255, 255, 255, 0.5);   
+
+}
+#banner > .intro h4 {
+    margin-bottom: 20px;
+    text-align: left;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+#banner > .intro p {
+    margin-bottom: 10px;
+    text-align: left;
+}
+
+#banner > .intro .btn {
+    display: block;
+    background: yellow;
+    color: #000;
+    text-transform: uppercase;
+    padding: 12px;
+    text-align: center;
+    font-weight: bold;
+    margin-right: auto;
+    margin-left: auto;
+    padding-bottom: 5px;
+    
 }
