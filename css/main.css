@@ -92,6 +92,7 @@ u{
 #banner > .intro p {
     margin-bottom: 10px;
     text-align: left;
+    padding-left: 7px;
 }
 
 #banner > .intro .btn {
@@ -99,11 +100,11 @@ u{
     background: yellow;
     color: #000;
     text-transform: uppercase;
-    padding: 12px;
+    padding: 10px 80px;
     text-align: center;
     font-weight: bold;
     margin-right: auto;
     margin-left: auto;
     padding-bottom: 5px;
-    
+    font-weight: bold;
 }
