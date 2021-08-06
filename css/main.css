@@ -1,0 +1,41 @@
+body{
+    margin-left: 0;
+    margin-right: 0;
+    margin-top:0 ;
+}
+
+h2{
+    color: yellow;
+}
+.container {
+    background-color: black;
+    height: 80px;
+    width: 100%;
+}
+
+.startup{
+    height: 50px;
+    margin-left: 10px;
+    display: flex;
+    align-items: center;
+}
+.flex {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-start;
+    align-content: center;
+    margin-top: 0;
+    margin-bottom: 60px;
+    
+}
+nav.flex a{
+    height: 100px;
+    margin-right: 20px;
+    text-decoration: none;
+    color: white;
+    height: 50px;
+    
+   
+    
+    
+}
