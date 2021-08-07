@@ -4,7 +4,7 @@ body{
     margin-top:0 ;
 }
 
-h2{
+div.startup h2{
     color: yellow;
 }
 .container {
@@ -110,11 +110,12 @@ u{
 #bottom__content{
     display: flex;
     justify-content:space-around;
-    flex-wrap: nowrap;   
-    padding-left: 30px;
-    padding-right: 30px;
-    padding-top: 10px;
-    padding-bottom: 0;
+    padding-top: 0px;
+    padding-right: 10px;
+    padding-bottom: 0px;
+    padding-left: 10px;
+    margin-bottom: 0;
+    height: 50px;
 }
 
 div.first , div.second , div.third{
@@ -125,7 +126,8 @@ div.first , div.second , div.third{
     padding-bottom: 0px;
     margin: 0 0;
     width: 500px;
-    height: 170px;
+    height: 200px;
+    box-shadow: inset -2px 0 0 rgb(0 0 0 / 15%);
 }
 
 .text{
@@ -134,7 +136,7 @@ div.first , div.second , div.third{
     margin-right: 0px;
     padding-left: 0px;
     padding-right: 0px;
-    padding-bottom: 0px;
+    padding-bottom: 70px;
     padding-top: 0px;
     width: 100%;
 }
@@ -143,7 +145,7 @@ div.first , div.second , div.third{
 
 .link{
     display: block;
-    background: grey;
+    background: #8080806b;
     color: #000;
     text-transform: uppercase;
     padding: 10px 10px;
@@ -153,17 +155,32 @@ div.first , div.second , div.third{
     margin-left: auto;
     font-weight: bold;
     width: 100%;
+    border-radius: 4px;
 }
 
-.footer{
 
+/* 
+.footer{
     background-color: black;
     color: white;
     text-align: left center;
     padding-bottom: 0px;
     padding-left: 10px;
     height: 40px;
-}
+    bottom: 0; 
+    position: fixed;
+
+ */
+
+ .footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: black;
+    color: white;
+    text-align: left center;
+    padding-left: 10px;
 
 .footer p{
     padding-top: 10px;
